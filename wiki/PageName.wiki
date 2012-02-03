@@ -2,7 +2,7 @@
 
 = Introdução =
 
-Problemas de segurança corrigidos
+#Problemas de segurança corrigidos
 
 Tracker Issues Fixed
 
