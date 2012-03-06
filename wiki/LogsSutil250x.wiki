@@ -1,0 +1,81 @@
+#summary Log-Sutil-2501
+
+= Introdução =
+
+#Problemas de segurança corrigidos
+
+Tracker Issues Fixed
+
+= Detalhes =
+
+Statistics for the 2.5.2.0 release
+
+Sutil! 2.5.2.0 contains:
+
+2 security issues fixed
+Security Issues Fixed
+
+High Priority - Core - SQL Injection.
+Medium Priority - Core - XSS Vulnerability.
+
+---------------------------------------------------------
+
+Summary - Link 
+
+Batch processing broken - Administration
+
+Version Module for Admin to show Sutil! version in Footer admin - Template Administration
+
+Sutil! 1.7.0.x batch processing allow move items to trashed categories  - Administration
+
+New version module interferes with license notice in Hathor - Administration
+
+Add warning/no warning icons on Database screen - Administration
+
+Update 1.7.0 strings to 2.5.0 - Code Quality 
+
+$app variable can possibly not be set causing a PHP error - Code Quality
+
+Batch processing of articles doesn't work for users with restricted rights - Components
+
+Basic Search contact search is broken - Components
+
+com_redirect redirects should use 301 redirect not 303 - Components
+
+Error in Banner Track Clicks - Components
+
+An unpublished linked contact leads to articles not being displayed. - Components
+
+Sutil! on Windows Azure - Load time is slow Database
+
+mod_menu invalid rendering of items of type alias and url - Front End
+
+Extension Manager: Database does not fix update problem - Installation
+
+Version Number Module Not Assigned to Menus - Installation
+
+Path of home sub-menu items contain "News Feeds" - Installation
+
+Extension Manager: Database does not fix text filter problem - Installation
+
+Update SQL query requires temp table permissions - Installation
+
+Please first make a selection from the lis't: Huge error on 40+ sites - Javascript
+
+Upgrade MooTools to version 1.4.3 - Javascript
+
+COM_USERS_FITLER_NOTES - Languages
+
+*Installing sample data and defining as site lang another lang then English breaks links Languages
+
+User profile page does not HTML escape the user's name - Layouts
+
+The related articles modules (mod_related_items) are not showing - Modules
+
+mod_search head search link title not escaped - Modules
+
+Can't update #__update_sites table at extension install on SQL Server - Plugins
+
+Code error plgUserProfile line 188 - Plugins
+
+labels missing for Smart Search / Finder module - Templates
