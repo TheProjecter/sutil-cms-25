@@ -1,4 +1,4 @@
-#summary Log-Sutil-2501
+#summary Log-Sutil-250
 
 = Introdução =
 
@@ -7,6 +7,20 @@
 Tracker Issues Fixed
 
 = Detalhes =
+
+#Problemas corrigidos em Sutil! 2.5.3.0
+
+Statistics for the 2.5.3.0 release
+
+Sutil! 2.5.3.0 contains:
+
+2 security issues fixed
+
+Security Issues Fixed
+
+> High Priority - Core - Privilege Escalation.
+> High Priority - Core - Password Change.
+
 
 Statistics for the 2.5.2.0 release
 
