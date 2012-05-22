@@ -8,6 +8,12 @@ Tracker Issues Fixed
 
 = Detalhes =
 
+# Problemas corrigidos em Sutil! 2.5.4.1
+
+> Atualizado o Editor JCE para a versão 2.1.3
+> Adicionado módulo de administração MiniCalendar
+
+
 # Problemas corrigidos em Sutil! 2.5.4.0
 
 Statistics for the 2.5.4.0 release period
