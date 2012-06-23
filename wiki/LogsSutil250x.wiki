@@ -8,6 +8,260 @@ Tracker Issues Fixed
 
 = Detalhes =
 
+# Problemas corrigidos em Sutil! 2.5.6.0
+
+28800 Update editor JCE for last version 2.2.0 - Components
+
+28650 Use legacy aliases for the MVC in the site - Components
+
+28554 Mark JXMLElement as deprecated and don't use it in type hinting - Platform
+
+28684 JApplication::registerEvent() is not static anymore causing a fatal error - Platform
+
+28685 Edit article Button missing after upgrade to teh latest version 2.5.5 from 2.5.4 - Administration
+
+28689 FinderController duplicate lines - Components
+
+28694 Delete toolbar broken in com_media in 2.5.5 - Components
+
+28695 Lang string missing - Languages
+
+28698 Fatal error updating with Extension manager > Install - None
+
+28700 Fix a potentially fatal issue in JXMLElement - Platform
+
+28702 404 Hits of com_redirect fails after Manual update - Administration
+
+28703 JUser class is missing the public vars for the 2 new columns lastResetTime and resetCount - None
+
+28704 Menu type aliases causing fatal php error - Modules
+
+28589 *ACL regression in com_search - ACL
+
+28602 *Menu Item Manager: Show Batch Processing only if allowed - ACL
+
+28607 Missing direct access check for com_finder - ACL
+
+28605 ACL regression in com_finder - ACL
+
+28611 *ACL: Module Manager: Show Batch Processing only if allowed - ACL
+
+28587 *ACL regression in com_redirect - ACL
+
+27819 The articles model displays articles for which there is no category access [+fix] - ACL
+
+28588 *ACL regression in com_messages - ACL
+
+28646 *New user registration approval should only be possible when Create permission - ACL
+
+28205 Remove 'Display: no' modules from Module Assignment list (1.7), or button to hide them - Administration
+
+28572 *Administration user notes checked on notes page gives warning arugment missing - Administration
+
+28481 Edit Menu Item: Modules appears multiple times in the list - Administration
+
+28456 Error 500 when Logging back in after timeout - Administration
+
+24839 Incorrect tooltip for Sticky column icons in Banner Manager: Banners - Administration
+
+28428 Backend uses incorrert cache path for system caches - text filters can be reseted to defaults with e - Administration
+
+28467 *configuration.php smtp saves auto-filled admin username and password - Administration
+
+28411 Site breaks when deleting alternate style which is in use - Administration
+
+28354 Problem logging out if Public group has admin login permission Authentication and - Login
+
+28436 Wrong group in ldap and joomla authentication-plugin XML-file Authentication and - Login
+
+27737 Clean up the unit tests - Automated Testing
+
+28569 Correct docblocs in com_joomlaupdate. - Code Quality
+
+28380 *Normalizing Beez_20 css and js loading - Code Quality
+
+28420 discover_install of components does not trigger custom install method - Code Quality
+
+28570 Backport JAccess::getActionsFrom*** - Code Quality
+
+28553 Improve code for 28205. - Code Quality
+
+28514 duplicate line in user.php - Code Quality
+
+28547 ACL consistency - Use the API and access.xml everywhere. - Code Quality
+
+28285 E_NOTICE about array to string conversion in debug.php with PHP 5.4 - Code Quality
+
+28457 *Unused $offset_user parameter in configuration - Code Quality
+
+28548 Use instanceof instead of is_a() - Code Quality
+
+28555 Fix files that are CRLF. - Code Quality
+
+28442 Update Library Manifests - Code Quality
+
+28440 *load language file from com_media front end - Code Quality
+
+28521 Use doExecute instead of execute in CLI scripts - Code Quality
+
+28360 Get rid of assign() and assignRefs() uses in view: Installation - Code Quality
+
+28613 Use fewer deprecated methods. - Code Quality
+
+28305 Remove a few unnecessary import() calls. Add a missing import(). - Code Quality
+
+28335 Simplify schema path in installation, add support for other databases - Code Quality
+
+28336 e-strict error in com_messages - Code Quality
+
+28600 Add a code style checker - Code Quality
+
+28609 Update joomlaupdate @SInCE tags missed in 61f5ee8. - Code Quality
+
+28652 *Strict standards administrator/components/com_config/models/application.php - Code Quality
+
+28660 Fix code style errors - Code Quality
+
+28370 Get rid of assign() uses in view: admin + site - Code Quality
+
+28375 Remove blacklist code from FinderIndexerHelper - Code Quality
+
+28546 Trunk is broken due to a PHP error in JComponentHelper - Components
+
+28614 Add option to enable/disable logging in Smart Search - Components
+
+28536 Undefined variable $prev in com_config - Components
+
+28619 Fix #24510 to not add code specific to the profile plug-in to com_users - Components
+
+28276 Finder/Smart Search: Deleting an item does not remove it from Finder's index - Components
+
+28022 Smart search and unpublished Content Maps fails after edit of an article - Components
+
+28398 Missing "remember me" in com_users - Components
+
+28579 Fix xreference regression from 1.7 to 2.5 - Components
+
+28591 Content triggers in Category and Featured views only apply to first few articles - Components
+
+21946 Redirect component produces error - Components
+
+28351 Remove extra images from finder - Components
+
+28339 Incorrect parameter passed to onUserAfterDeleteGroup event - Components
+
+28608 Remove unused file in com_users - Components
+
+28615 Backport union query element from Platform 12 and use it in Smart Search - Database
+
+28525 Fix JForm::load() not replacing form field in same location - Forms
+
+28426 only a single JFormFieldColor field can exist (functionally) within a form - Forms
+
+28598 *Article Category list displays hits in author column if no article author or createdbyalias - Front End
+
+28025 Joomla Bugfix: Exchange of wrong picture by hide.js fixed - Front End
+
+28670 SQL error when installing trunk without sample data - Installation
+
+27772 Selecting 'Install Sample Data' button causes 'invalid security token' error message if 'Next' butto - Installation
+
+28400 Help Site URL Defaulting to Version 1.6 - Installation
+
+28642 Clean up the installation a tiny bit - Installation
+
+28345 Call to member function of non-object: setDebug() - Installation
+
+28551 Fix som issues with exceptions - Installation
+
+27651 JInstallationModelDatabase::initialise has hard coded MySQL version check - Installation
+
+28550 Default admin user created with id 42 - Installation
+
+28149 ImageManager Javascript Error - Javascript
+
+28505 *Multilang validation errors when SEF is off - Languages
+
+28407 *Browser Settings for new visitors broken in multilanguage - Languages
+
+28571 Typo in en-GB.com_templates.ini and pt-BR.com_templates.ini - Languages
+28639 New User Account Activation Tooltip Clarification - Languages
+
+28592 Language in component folder - Languages
+
+28453 Language override doesn't handle double quotes properly - Languages
+
+28673 JSON data returned when uploading oversized file - Media Manager
+
+28384 Duplicate 'home' in breadcrumbs in a multi-language site - Modules
+
+28192 Bug in mod_articles_news in version 1.7 and 2.5 - Modules
+
+28483 *Weblinks module should only pass on category related queries when catid &gt; 0 - Modules
+
+28526 bug in mod_articles_news - Modules
+
+28487 Menu Item Alias does not obey Secure Setting of Aliased Item - Modules
+
+28210 onchange event does not fire at JFormFieldMedia (Regression) - Platform
+
+28632 Backport JCrypt (only with the simple chipher) - Platform
+
+28549 Provide legacy aliases for the MVC classes - Platform
+
+28648 Backport some deprecation info to the base package - Platform
+
+28645 Clean up the session package based on what was done in the platform. - Platform
+
+28287 Fix some differences between platform and cms. Backport CSS changes - Platform
+
+28309 Improve forward compatability with Joomla 3.0 by making JDatabaseException extend RuntimeException - Platform
+
+28419 Remove warnings for undeprecated code. Fix a bug in JView in the process. - Platform
+
+28561 Move some JFormFields from the platform to the CMS - Platform
+
+28378 Backport JInput:def() from the platform - Platform
+
+28377 Backport JDatabase::execute() - Platform
+
+28560 Backport some files completely from the current platform - Platform
+
+28599 Backport the new JLoader from the platform 12.1 - Platform
+
+28343 Backport JInputFiles fix from Platform - Platform
+
+28421 Update PHPMailer to 5.2.1 - Platform
+
+28649 Backport small changes to the MVC from the platform. - Platform
+
+28644 Move JApplicationHelper::parseXMLInstallFile to JInstaller. - Platform
+ 
+27267 Multiple Loggers fail when using formattedtext - Platform
+ 
+28667 Update TinyMCE to version 3.5.2 - Plugins
+
+28566 Update TinyMCE 3.5.1.1 - Plugins
+
+28479 Use most specific paths possible. Fix detect FTP root. - Plugins
+
+28631 Bug in Codemirror plugin - Plugins
+
+28364 JImage wrong JPEG suppert detection in PHP 5.2 - Plugins
+
+27711 Plugin SEF don't support "poster" video attribute - Search Engine Friendly
+
+28455 *303 when not using URL Language code in multilanguage - Search Engine Friendly
+
+25170 Content pictures aren't displaying if SEF is on and System Cache plugin is enabled - Search Engine Friendly
+
+28382 Make Atomic work with sample data - Templates
+
+28603 User Registration Form: Label/Field Offset by one Line - User Interface
+
+28342 *New joomlaupdate component has no icon in admin menu + missing lang string - User Interface
+
+
 # Problemas corrigidos em Sutil! 2.5.4.1
 
 > Atualizado o Editor JCE para a versão 2.1.3
