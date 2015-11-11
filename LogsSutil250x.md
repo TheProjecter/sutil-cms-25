@@ -1,0 +1,684 @@
+# Introdução #
+
+#Problemas de segurança corrigidos
+
+Tracker Issues Fixed
+
+# Detalhes #
+
+# Problemas corrigidos em Sutil! 2.5.6.0
+
+28800 Update editor JCE for last version 2.2.0 - Components
+
+28650 Use legacy aliases for the MVC in the site - Components
+
+28554 Mark JXMLElement as deprecated and don't use it in type hinting - Platform
+
+28684 JApplication::registerEvent() is not static anymore causing a fatal error - Platform
+
+28685 Edit article Button missing after upgrade to teh latest version 2.5.5 from 2.5.4 - Administration
+
+28689 FinderController duplicate lines - Components
+
+28694 Delete toolbar broken in com\_media in 2.5.5 - Components
+
+28695 Lang string missing - Languages
+
+28698 Fatal error updating with Extension manager > Install - None
+
+28700 Fix a potentially fatal issue in JXMLElement - Platform
+
+28702 404 Hits of com\_redirect fails after Manual update - Administration
+
+28703 JUser class is missing the public vars for the 2 new columns lastResetTime and resetCount - None
+
+28704 Menu type aliases causing fatal php error - Modules
+
+28589 **ACL regression in com\_search - ACL**
+
+28602 **Menu Item Manager: Show Batch Processing only if allowed - ACL**
+
+28607 Missing direct access check for com\_finder - ACL
+
+28605 ACL regression in com\_finder - ACL
+
+28611 **ACL: Module Manager: Show Batch Processing only if allowed - ACL**
+
+28587 **ACL regression in com\_redirect - ACL**
+
+27819 The articles model displays articles for which there is no category access [+fix] - ACL
+
+28588 **ACL regression in com\_messages - ACL**
+
+28646 **New user registration approval should only be possible when Create permission - ACL**
+
+28205 Remove 'Display: no' modules from Module Assignment list (1.7), or button to hide them - Administration
+
+28572 **Administration user notes checked on notes page gives warning arugment missing - Administration**
+
+28481 Edit Menu Item: Modules appears multiple times in the list - Administration
+
+28456 Error 500 when Logging back in after timeout - Administration
+
+24839 Incorrect tooltip for Sticky column icons in Banner Manager: Banners - Administration
+
+28428 Backend uses incorrert cache path for system caches - text filters can be reseted to defaults with e - Administration
+
+28467 **configuration.php smtp saves auto-filled admin username and password - Administration**
+
+28411 Site breaks when deleting alternate style which is in use - Administration
+
+28354 Problem logging out if Public group has admin login permission Authentication and - Login
+
+28436 Wrong group in ldap and joomla authentication-plugin XML-file Authentication and - Login
+
+27737 Clean up the unit tests - Automated Testing
+
+28569 Correct docblocs in com\_joomlaupdate. - Code Quality
+
+28380 **Normalizing Beez\_20 css and js loading - Code Quality**
+
+28420 discover\_install of components does not trigger custom install method - Code Quality
+
+28570 Backport JAccess::getActionsFrom**- Code Quality**
+
+28553 Improve code for 28205. - Code Quality
+
+28514 duplicate line in user.php - Code Quality
+
+28547 ACL consistency - Use the API and access.xml everywhere. - Code Quality
+
+28285 E\_NOTICE about array to string conversion in debug.php with PHP 5.4 - Code Quality
+
+28457 **Unused $offset\_user parameter in configuration - Code Quality**
+
+28548 Use instanceof instead of is\_a() - Code Quality
+
+28555 Fix files that are CRLF. - Code Quality
+
+28442 Update Library Manifests - Code Quality
+
+28440 **load language file from com\_media front end - Code Quality**
+
+28521 Use doExecute instead of execute in CLI scripts - Code Quality
+
+28360 Get rid of assign() and assignRefs() uses in view: Installation - Code Quality
+
+28613 Use fewer deprecated methods. - Code Quality
+
+28305 Remove a few unnecessary import() calls. Add a missing import(). - Code Quality
+
+28335 Simplify schema path in installation, add support for other databases - Code Quality
+
+28336 e-strict error in com\_messages - Code Quality
+
+28600 Add a code style checker - Code Quality
+
+28609 Update joomlaupdate @SInCE tags missed in 61f5ee8. - Code Quality
+
+28652 **Strict standards administrator/components/com\_config/models/application.php - Code Quality**
+
+28660 Fix code style errors - Code Quality
+
+28370 Get rid of assign() uses in view: admin + site - Code Quality
+
+28375 Remove blacklist code from FinderIndexerHelper - Code Quality
+
+28546 Trunk is broken due to a PHP error in JComponentHelper - Components
+
+28614 Add option to enable/disable logging in Smart Search - Components
+
+28536 Undefined variable $prev in com\_config - Components
+
+28619 Fix #24510 to not add code specific to the profile plug-in to com\_users - Components
+
+28276 Finder/Smart Search: Deleting an item does not remove it from Finder's index - Components
+
+28022 Smart search and unpublished Content Maps fails after edit of an article - Components
+
+28398 Missing "remember me" in com\_users - Components
+
+28579 Fix xreference regression from 1.7 to 2.5 - Components
+
+28591 Content triggers in Category and Featured views only apply to first few articles - Components
+
+21946 Redirect component produces error - Components
+
+28351 Remove extra images from finder - Components
+
+28339 Incorrect parameter passed to onUserAfterDeleteGroup event - Components
+
+28608 Remove unused file in com\_users - Components
+
+28615 Backport union query element from Platform 12 and use it in Smart Search - Database
+
+28525 Fix JForm::load() not replacing form field in same location - Forms
+
+28426 only a single JFormFieldColor field can exist (functionally) within a form - Forms
+
+28598 **Article Category list displays hits in author column if no article author or createdbyalias - Front End**
+
+28025 Joomla Bugfix: Exchange of wrong picture by hide.js fixed - Front End
+
+28670 SQL error when installing trunk without sample data - Installation
+
+27772 Selecting 'Install Sample Data' button causes 'invalid security token' error message if 'Next' butto - Installation
+
+28400 Help Site URL Defaulting to Version 1.6 - Installation
+
+28642 Clean up the installation a tiny bit - Installation
+
+28345 Call to member function of non-object: setDebug() - Installation
+
+28551 Fix som issues with exceptions - Installation
+
+27651 JInstallationModelDatabase::initialise has hard coded MySQL version check - Installation
+
+28550 Default admin user created with id 42 - Installation
+
+28149 ImageManager Javascript Error - Javascript
+
+28505 **Multilang validation errors when SEF is off - Languages**
+
+28407 **Browser Settings for new visitors broken in multilanguage - Languages**
+
+28571 Typo in en-GB.com\_templates.ini and pt-BR.com\_templates.ini - Languages
+28639 New User Account Activation Tooltip Clarification - Languages
+
+28592 Language in component folder - Languages
+
+28453 Language override doesn't handle double quotes properly - Languages
+
+28673 JSON data returned when uploading oversized file - Media Manager
+
+28384 Duplicate 'home' in breadcrumbs in a multi-language site - Modules
+
+28192 Bug in mod\_articles\_news in version 1.7 and 2.5 - Modules
+
+28483 **Weblinks module should only pass on category related queries when catid &gt; 0 - Modules**
+
+28526 bug in mod\_articles\_news - Modules
+
+28487 Menu Item Alias does not obey Secure Setting of Aliased Item - Modules
+
+28210 onchange event does not fire at JFormFieldMedia (Regression) - Platform
+
+28632 Backport JCrypt (only with the simple chipher) - Platform
+
+28549 Provide legacy aliases for the MVC classes - Platform
+
+28648 Backport some deprecation info to the base package - Platform
+
+28645 Clean up the session package based on what was done in the platform. - Platform
+
+28287 Fix some differences between platform and cms. Backport CSS changes - Platform
+
+28309 Improve forward compatability with Joomla 3.0 by making JDatabaseException extend RuntimeException - Platform
+
+28419 Remove warnings for undeprecated code. Fix a bug in JView in the process. - Platform
+
+28561 Move some JFormFields from the platform to the CMS - Platform
+
+28378 Backport JInput:def() from the platform - Platform
+
+28377 Backport JDatabase::execute() - Platform
+
+28560 Backport some files completely from the current platform - Platform
+
+28599 Backport the new JLoader from the platform 12.1 - Platform
+
+28343 Backport JInputFiles fix from Platform - Platform
+
+28421 Update PHPMailer to 5.2.1 - Platform
+
+28649 Backport small changes to the MVC from the platform. - Platform
+
+28644 Move JApplicationHelper::parseXMLInstallFile to JInstaller. - Platform
+
+27267 Multiple Loggers fail when using formattedtext - Platform
+
+28667 Update TinyMCE to version 3.5.2 - Plugins
+
+28566 Update TinyMCE 3.5.1.1 - Plugins
+
+28479 Use most specific paths possible. Fix detect FTP root. - Plugins
+
+28631 Bug in Codemirror plugin - Plugins
+
+28364 JImage wrong JPEG suppert detection in PHP 5.2 - Plugins
+
+27711 Plugin SEF don't support "poster" video attribute - Search Engine Friendly
+
+28455 **303 when not using URL Language code in multilanguage - Search Engine Friendly**
+
+25170 Content pictures aren't displaying if SEF is on and System Cache plugin is enabled - Search Engine Friendly
+
+28382 Make Atomic work with sample data - Templates
+
+28603 User Registration Form: Label/Field Offset by one Line - User Interface
+
+28342 **New joomlaupdate component has no icon in admin menu + missing lang string - User Interface**
+
+
+# Problemas corrigidos em Sutil! 2.5.4.1
+
+> Atualizado o Editor JCE para a versão 2.1.3
+> Adicionado módulo de administração MiniCalendar
+
+
+# Problemas corrigidos em Sutil! 2.5.4.0
+
+Statistics for the 2.5.4.0 release period
+
+Sutil! 2.5.4.0 contains:
+
+> 3 new features added
+> 157 tracker issues fixed
+> Sutil! 2.5.4.0 uses version 11.4 of the Joomla! Platform.
+
+New Features Added
+
+The following new features have been added, with links to the Feature tracker issue.
+
+Security Issues Fixed
+
+Low Priority - Core - Information Disclosure. More information »
+Low Priority - Core - XSS Vulnerability. More information »
+
+Tracker Issues Fixed
+
+ID Summary/Link Category
+
+27941 Add warning/no warning icons on Database screen - Administration
+
+27842 Batch processing broken - Administration
+
+28175 Calendar readonly="true" status prevents loading custom calendars. - Administration
+
+27923 com\_menus item model calls non-existing method - Administration
+
+28190 com\_search: Show Search Results results in PHP fatal error - Administration
+
+27052 Content menu displayed when disable component content - Administration
+
+28252 Don't show the site secret and optimize ConfigModelApplication - Administration
+
+28180 fix for com\_modules getListQuery returning too many rows [attached](patch.md) - Administration
+
+28158 Fix for override manager regarding plugins - Administration
+
+27868 Joomla 1.7.x batch processing allow move items to trashed categories - Administration
+
+28007 Languages overrides not showing content when showing is set to all - Administration
+
+27893 New version module interferes with license notice in Hathor - Administration
+
+28269 Protected extensions can be disabled through the toolbar - Administration
+
+27844 Version Module for Admin to show Joomla version in Footer admin Template - Administration
+
+28237 PHP Notice in back end login when cache enabled. - Authentication and Login
+
+27600 Editor-XTD buttons Issues in FireFox 9 - Browsers
+
+28314 #28299 can cause performance issue if root category is loaded in non multilanguage mode - CMS Libraries
+
+24338 Autoupdate fails for components after applying a patch from [issue #24305](https://code.google.com/p/sutil-cms-25/issues/detail?id=#24305) - CMS Libraries
+
+28226 Incorrect SQL statement for MenuItems in menuitem library - CMS Libraries
+
+28093 JVersion::getHelpVersion() unnecessarily checks the version - CMS Libraries
+
+28091 Move the check if multilang is enabled to the libraries - CMS Libraries
+
+28299 SEF issue when using article button in multilanguage - CMS Libraries
+
+27829 $app variable can possibly not be set, causing a PHP error - Code Quality
+
+25423 $message not initialized in ~/components/com\_users/controllers/reset.php - Code Quality
+
+28023 Backport JSession::checkToken() from the platform - Code Quality
+
+28262 Bug with Rebuild button in the Menu Manager - Code Quality
+
+28125 Database change broke JUser getGroups() API - Code Quality
+
+27410 Don't use DS anymore - Code Quality
+
+28286 Fix @since tags for 2.5.4. Code style in CMS libraries. - Code Quality
+
+28265 Fix use of deprecated API in com\_installer - Code Quality
+
+27870 Sutil! 2.5 com\_content generates non-valid xhtml - Code Quality
+
+28186 PHP Strict Standards: Non-static method UsersHelperRoute::getResetRoute() should not be called statically, assuming $this from incompatible context - Code Quality
+
+28088 Strict error with JSite::getMenu() - Code Quality
+
+27818 Update 1.7 strings to 2.5 - Code Quality
+
+27886 An unpublished linked contact leads to articles not being displayed. - Components
+
+27581 Basic Search contact search is broken - Components
+
+26986 Batch processing of articles doesn't work for users with restricted rights - Components
+
+27700 com\_redirect redirects should use 301 redirect, not 303 - Components
+
+28174 com\_wrapper doesn't support iframe without border - Components
+
+27780 Dublicate Template Styles - Components
+
+27872 Error in Banner Track Clicks - Components
+
+27853 error notice using search in Sutil! 2.5 - Components
+
+27956 Missing security check of file default\_links.php - Components
+
+28187 Notice in com\_contact when sendEmail fails - Components
+
+23021 Notice message in banners model - Components
+
+28280 Regression in the com\_installer warnings - Components
+
+28206 Result Description "if condition" was missing in com\_finder - Components
+
+28154 RSS feed of com\_finder throws fatal error - Components
+
+27716 Saving 'Start Publishing' updates 'Finish Publishing' not 'Start Publishing' - Components
+
+28277 Wrong 'category' tag in category feed - Components
+
+28172 Backslashes are added every time you save Wrapper menu item - Database
+
+27774 Sutil! on Windows Azure - Load time is slow - Database
+
+28001 path delimiter doesn't work properly on SQL Server and SQL Azure - Database
+
+28318 Remove duplicate SQL Server directories. - Database
+
+28266 Sql error generated in menus - Database
+
+28222 SQL error generated in system redirect plugin - Database
+
+28008 sql syntax error in libraries/joomla/database/table/session.php:137 - Database
+
+27961 Template is not displayed in the Styles (backend) - Database
+
+27960 Unable to create an article - Database
+
+27888 users notes categories - Database
+
+26602 Front end article creation in unpublished category - Forms
+
+28150 ContentBuildRoute does not remove layout if link attached to menu item - Front End
+
+27890 mod\_menu invalid rendering of items of type alias and url - Front End
+
+27824 Offline image overflow - Front End
+
+27931 Profile fields not available in edit, only registration - Front End
+
+28134 Typo in com\_content view - Front End
+
+28145 Add uninstall support for possibly installed media files - Installation
+
+28259 Error in Database tab in Extension Manager - Installation
+
+28261 Error message contains the string Sutil! 1.7.0 - Installation
+
+27919 Extension Manager: Database does not fix text filter problem - Installation
+
+27887 Extension Manager: Database does not fix update problem - Installation
+
+28122 Fix installation for Sutil! 3.0.0 - Installation
+
+27751 Installation - Check to ensure the schema file exists - Installation
+
+28188 Javascript issue on IE7 during install - Installation
+
+27916 Path of home sub-menu items contain "News Feeds" Installation
+27568 Remove the use of all deprecated functions (except JRequest and JException) in the installation. - Installation
+
+28132 Typo in joomla-cms / installation / models / configuration.php - Installation
+
+26468 Unable to install multiple updates at once - Installation
+
+27920 Update SQL query requires temp table permissions - Installation
+
+27895 Version Number Module Not Assigned to Menus - Installation
+
+27863 JHtmlGrid::sort broken - Javascript
+
+27843 media.php jInsertFieldValue - Javascript
+
+27880 Please first make a selection from the lis't: Huge error on 40+ sites - Javascript
+
+28268 Update MooTools to 1.4.5 - Javascript
+
+28046 Update MooTools to version 1.4.4 - Javascript
+
+27905 Upgrade MooTools to version 1.4.3 - Javascript
+
+27889 Change permissions in language manager changes default language to english - Languages
+
+28090 Changes to the Administrator Language Strings - Languages
+
+27796 COM\_USERS\_FITLER\_NOTES - Languages
+
+28072 Content Languages ordering broken - Languages
+
+28098 Entering link to article via Article button -making it Multilanguage aware - Languages
+
+28036 Implementing Access levels for Content Languages - Languages
+
+28157 Inconsistent Language Constants in the Beez\_20 Language Files - Languages
+
+27929 Installing sample data and defining as site lang another lang then English breaks links - Languages
+
+28151 Sutil! 2.5.0 - Multilanguage feature - external links end with 404 - Languages
+
+28115 PHP 5.3.8 Notice for some language packs with iconv - Languages
+
+27975 smart search author not translated. - Languages
+
+27966 Wrong constants in article menu item - Languages
+
+27959 Wrong redirection when login on multilang site with SEF on. - Languages
+
+27779 Articles; H1 tag appearing before the article title... - Layouts
+
+27864 User profile page does not HTML escape the user's name - Layouts
+
+23414 Flash uploader rtl - browse button disabled - Media Manager
+
+28199 Archive module error when no articles are archived - Modules
+
+28099 Editor buttons in Custom HTML module - Modules
+
+28000 Featured articles parameter does not work in mod\_articles\_popular - Modules
+
+28316 Incorrect ordering value if editing last module - Modules
+
+28017 JModuleHelper All but selected does not work correctly when there is no itemid - Modules
+
+27659 joomla 2.5beta1 module alternative layout on admin side don't work - Modules
+
+27536 mod\_articles\_category ordering - Modules
+
+27902 mod\_languages html 5 validation error empty action attribute - Modules
+
+28021 mod\_login module does not HTML escape the user's name - Modules
+
+27896 mod\_search head search link title not escaped - Modules
+
+28068 Module weblinks does not import needed JModel class - Modules
+
+28086 No access to params "images" in mod\_articles\_news - Modules
+
+28181 Notice in weblinks module - Modules
+
+27150 PHP Fatal error when detele a article category assigned to a artcle categories module - Modules
+
+27873 The related articles modules (mod\_related\_items) are not showing - Modules
+
+27972 Multilanguage Status module report version 1.7.1 should be 2.5.x - None
+
+27802 The package installer insert two database entries on templates - None
+
+27784 Use less deprecated functions - None
+
+28120 XHTML 1.0 Transitional - None
+
+28303 Change 28026 so it doesn't modify platform files - Platform
+
+28264 Fix JSession::checkToken() to be forward compatible with Sutil!  3.0 - Platform
+
+27706 JAccess::getGroupsByUser doesn't work as expected in case of guest user - Platform
+
+28133 JMail addAttachment ignores parameters (filename, encoding, type) - Platform
+
+27951 Missing parameter handling in magic proxy methods for name quotes - Platform
+
+26346 Sync some changes from the platforum - Platform
+
+26906 Zip Archive native unpack wrong result - Platform
+
+27662 Can't update #update\_sites table at extension install on SQL Server - Plugins
+
+27990 Captcha Typo (with solution) - Plugins
+
+27862 Code error plgUserProfile line 188 - Plugins
+
+27918 Date format in /plugins/usr/profile/profile.php is wrong - Plugins
+
+28179 JText values in js of quick icons force to escape single quotes - Plugins
+
+27477 languagefilter: build rule is deleting "option" param - Plugins
+
+27770 loadposition strips the $ character from html modules - Plugins
+
+28118 Notice 'Only variable references should be returned by reference' - Plugins
+
+28044 Plugin Loadmodule ignores selected style - Plugins
+
+28075 Recapthca image doesnt show up, maybe because of https secure website - Plugins
+
+27898 System cache throws warning on Ajax requests with JSON response - Plugins
+
+28284 System messages included in cached pages - Plugins
+
+28028 Entering an article link via the Article button=>links broken in SEF - Search Engine Friendly
+
+27759 Alternative Sample Data Files (blog and brochure) - SQL Files
+
+28121 Empty trash not trashing some sample data articles - SQL Files
+
+27885 TinyMCE settings in SQL don't reflect recent changes in options. - SQL Files
+
+27992 Beez 2.0 has one css file still hardcoded with template name - Templates
+
+28198 Beez 5 generating warings/notices - Templates
+
+28117 Hathor forgotten in #28072 - Templates
+
+28140 JText values in js beez templates force to escape single quotes - Templates
+
+27938 labels missing for Smart Search / Finder module - Templates
+
+28114 missing css .icon-32-print class in bluestork template - Templates
+
+27907 Sitename not escaped - Templates
+
+28263 27052 does not work as should for System Links menu items - User Interface
+
+28162 Creating menu items saves selection when it shouldn't - User Interface
+
+
+#Problemas corrigidos em Sutil! 2.5.3.0
+
+Statistics for the 2.5.3.0 release
+
+Sutil! 2.5.3.0 contains:
+
+2 security issues fixed
+
+Security Issues Fixed
+
+> High Priority - Core - Privilege Escalation.
+> High Priority - Core - Password Change.
+
+
+Statistics for the 2.5.2.0 release
+
+Sutil! 2.5.2.0 contains:
+
+2 security issues fixed
+Security Issues Fixed
+
+High Priority - Core - SQL Injection.
+Medium Priority - Core - XSS Vulnerability.
+
+
+---
+
+
+Summary - Link
+
+Batch processing broken - Administration
+
+Version Module for Admin to show Sutil! version in Footer admin - Template Administration
+
+Sutil! 1.7.0.x batch processing allow move items to trashed categories  - Administration
+
+New version module interferes with license notice in Hathor - Administration
+
+Add warning/no warning icons on Database screen - Administration
+
+Update 1.7.0 strings to 2.5.0 - Code Quality
+
+$app variable can possibly not be set causing a PHP error - Code Quality
+
+Batch processing of articles doesn't work for users with restricted rights - Components
+
+Basic Search contact search is broken - Components
+
+com\_redirect redirects should use 301 redirect not 303 - Components
+
+Error in Banner Track Clicks - Components
+
+An unpublished linked contact leads to articles not being displayed. - Components
+
+Sutil! on Windows Azure - Load time is slow Database
+
+mod\_menu invalid rendering of items of type alias and url - Front End
+
+Extension Manager: Database does not fix update problem - Installation
+
+Version Number Module Not Assigned to Menus - Installation
+
+Path of home sub-menu items contain "News Feeds" - Installation
+
+Extension Manager: Database does not fix text filter problem - Installation
+
+Update SQL query requires temp table permissions - Installation
+
+Please first make a selection from the lis't: Huge error on 40+ sites - Javascript
+
+Upgrade MooTools to version 1.4.3 - Javascript
+
+COM\_USERS\_FITLER\_NOTES - Languages
+
+**Installing sample data and defining as site lang another lang then English breaks links Languages**
+
+User profile page does not HTML escape the user's name - Layouts
+
+The related articles modules (mod\_related\_items) are not showing - Modules
+
+mod\_search head search link title not escaped - Modules
+
+Can't update #update\_sites table at extension install on SQL Server - Plugins
+
+Code error plgUserProfile line 188 - Plugins
+
+labels missing for Smart Search / Finder module - Templates
